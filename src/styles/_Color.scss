@@ -1,0 +1,93 @@
+/****   Foreground    ****/
+$fgColor-accent: #0969da;
+$fgColor-attention: #9a6700;
+$fgColor-black: #1f2328;
+$fgColor-closed: #d1242f;
+$fgColor-danger: #d1242f;
+$fgColor-default: #1f2328;
+$fgColor-disabled: #818b98;
+$fgColor-done: #8250df;
+$fgColor-link: #0969da;
+$fgColor-muted: #59636e;
+$fgColor-neutral: #59636e;
+$fgColor-onEmphasis: #ffffff;
+$fgColor-onInverse: #ffffff;
+$fgColor-open: #1a7f37;
+$fgColor-severe: #bc4c00;
+$fgColor-sponsors: #bf3989;
+$fgColor-success: #1a7f37;
+$fgColor-upsell: #8250df;
+$fgColor-white: #ffffff;
+
+/****    Background    ****/
+$bgcolor-accent-emphasis: #0969da;
+$bgColor-accent-muted: #ddf4ff;
+$bgColor-attention-emphasis: #9a6700;
+$bgColor-attention-muted: #fff8c5;
+$bgColor-danger-emphasis: #cf222e;
+$bgColor-danger-muted: #ffebe9;
+$bgColor-disabled: #eff2f5;
+$bgColor-done-emphasis: #8250df;
+$bgColor-done-muted: #fbefff;
+$bgColor-emphasis: #25292e;
+$bgColor-inverse: #25292e;
+$bgColor-muted: #f6f8fa;
+$bgColor-neutral-emphasis: #59636e;
+$bgColor-neutral-muted: #818b981f;
+$bgColor-severe-emphasis: #bc4c00;
+$bgColor-severe-muted: #fff1e5;
+$bgColor-sponsors-emphasis: #bf3989;
+$bgColor-sponsors-muted: #ffeff7;
+$bgColor-success-emphasis: #1f883d;
+$bgColor-open-emphasis: $bgColor-success-emphasis;
+$bgColor-success-muted: #dafbe1;
+$bgColor-transparent: #ffffff00;
+
+/****    Border    ****/
+$borderColor-accent-emphasis: #0969da;
+$borderColor-accent-muted: #54aeff66;
+$borderColor-attention-emphasis: #9a6700;
+$borderColor-attention-muted: #d4a72c66;
+$borderColor-danger-emphasis: #cf222e;
+$borderColor-danger-muted: #ff818266;
+$borderColor-default: #d1d9e0;
+$borderColor-disabled: #818b981a;
+$borderColor-done-emphasis: #8250df;
+$borderColor-done-muted: #c297ff66;
+$borderColor-emphasis: #818b98;
+$borderColor-neutral-emphasis: #59636e;
+$borderColor-severe-emphasis: #bc4c00;
+$borderColor-severe-muted: #fb8f4466;
+$borderColor-sponsors-emphasis: #bf3989;
+$borderColor-sponsors-muted: #ff80c866;
+$borderColor-success-emphasis: #1a7f37;
+$borderColor-success-muted: #4ac26b66;
+$borderColor-transparent: #ffffff00;
+
+$activeTabBorderColor: #fd8c73;
+
+/****    Control    ****/
+$control-bgColor-active: #e6eaef;
+$control-bgColor-hover: #eff2f5;
+$control-bgColor-rest: #f6f8fa;
+
+/****    Button   ****/
+$button-default-bgColor-hover: #eff2f5;
+$button-default-bgColor-selected: #e6eaef;
+$button-danger-bgColor-hover: #a40e26;
+$button-danger-fgColor-disabled: #d1242f80;
+$button-danger-fgColor-rest: var(--fgColor-danger);
+$button-danger-iconColor-rest: var(--fgColor-danger);
+$button-danger-shadow-selected: inset 0px 1px 0px 0px #4c001433;
+$button-inactive-bgColor: #e6eaef;
+$button-inactive-fgColor: #59636e;
+$button-invisible-bgColor-disabled: #ffffff00;
+$button-invisible-borderColor-disabled: #ffffff00;
+$button-outline-shadow-selected: inset 0px 1px 0px 0px #00215533;
+$button-primary-bgColor-rest: var(--bgColor-success-emphasis);
+$button-primary-borderColor-disabled: var(--button-primary-bgColor-disabled);
+$button-primary-shadow-selected: inset 0px 1px 0px 0px #002d114d;
+$button-star-iconColor: #eac54f;
+$buttonCounter-danger-fgColor-disabled: #d1242f80;
+$buttonCounter-outline-fgColor-rest: #0550ae;
+$buttonCounter-primary-bgColor-rest: #002d1133;
