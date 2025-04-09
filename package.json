@@ -29,6 +29,7 @@
         "@electron/fuses": "^1.8.0",
         "@types/react": "^19.1.0",
         "@types/react-dom": "^19.1.1",
+        "@types/react-redux": "^7.1.34",
         "@typescript-eslint/eslint-plugin": "^5.62.0",
         "@typescript-eslint/parser": "^5.62.0",
         "@vercel/webpack-asset-relocator-loader": "^1.7.3",
@@ -38,14 +39,19 @@
         "eslint-plugin-import": "^2.31.0",
         "fork-ts-checker-webpack-plugin": "^7.3.0",
         "node-loader": "^2.1.0",
+        "sass": "^1.86.3",
+        "sass-loader": "^16.0.5",
         "style-loader": "^3.3.4",
         "ts-loader": "^9.5.2",
         "ts-node": "^10.9.2",
         "typescript": "~4.5.4"
     },
     "dependencies": {
+        "@primer/octicons-react": "^19.15.1",
+        "@reduxjs/toolkit": "^2.6.1",
         "electron-squirrel-startup": "^1.0.1",
         "react": "^19.1.0",
-        "react-dom": "^19.1.0"
+        "react-dom": "^19.1.0",
+        "react-redux": "^9.2.0"
     }
 }
