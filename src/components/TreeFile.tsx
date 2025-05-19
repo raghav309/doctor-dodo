@@ -19,7 +19,10 @@ function TreeFile({ name, level }: TreeFileProp) {
 
     return (
         <section className={activeFile} onClick={onClickFile}>
-            <div className="TreeItemLabel" style={{ paddingLeft: `${level}rem` }}>
+            <div
+                className="w-full px-2 py-1 flex items-center gap-2 hover:cursor-pointer hover:bg-[#eff2f5]"
+                style={{ paddingLeft: `${level}rem` }}
+            >
                 <FileIcon size={16} />
                 <p>{name}</p>
             </div>

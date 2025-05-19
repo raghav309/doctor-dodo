@@ -3,7 +3,7 @@ import TreeFolder from './TreeFolder';
 
 function Tree() {
     return (
-        <section className="Tree">
+        <section>
             <TreeFolder name="src" level={1}>
                 <TreeFolder name="components" level={2}>
                     <TreeFile name={'modal.js'} level={3} />

@@ -9,7 +9,8 @@ type TreeFolderProp = {
 
 function TreeFolder({ name, level, children }: TreeFolderProp) {
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const bodyClasses = isOpen ? 'TreeFolderBody' : 'TreeFolderBody TreeFolderBodyToggle';
+    const TreeFolderBody = 'h-0 overflow-hidden transition-[height] duration-250 ease-in-out';
+    const bodyClasses = isOpen ? TreeFolderBody : TreeFolderBody + ' h-auto';
     const handleToggle = (e: React.SyntheticEvent) => {
         e.preventDefault();
         setIsOpen(!isOpen);
@@ -17,11 +18,7 @@ function TreeFolder({ name, level, children }: TreeFolderProp) {
 
     return (
         <section className="TreeFolder">
-            <div
-                className="TreeItemLabel"
-                style={{ paddingLeft: `${level}rem` }}
-                onClick={handleToggle}
-            >
+            <div className="l" style={{ paddingLeft: `${level}rem` }} onClick={handleToggle}>
                 <ChevronRightIcon size={18} />
                 <p>{name}</p>
             </div>

@@ -20,7 +20,7 @@ function TabList() {
     }
 
     return (
-        <section className="TabList">
+        <section className="flex border-b border-[#d1d9e0]">
             {openFiles.map((openFile) => (
                 <Tab
                     title={openFile}
