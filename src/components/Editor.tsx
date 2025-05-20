@@ -7,9 +7,9 @@ type EditorProps = {
 
 function Editor({ mdComponent }: EditorProps) {
     return (
-        <section className="Editor">
+        <section className="h-screen w-4/5 overflow-hidden scrool">
             <TabList />
-            <section className="EditorBody">{mdComponent}</section>
+            <section className="EditorBody h-full p-4 overflow-y-auto">{mdComponent}</section>
         </section>
     );
 }
